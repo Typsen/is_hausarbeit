@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane_Root" minWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aufgabe1.BrainBallController">
+   <children>
+      <SplitPane dividerPositions="0.75" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane>
+               <children>
+                  <VBox alignment="TOP_CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane fx:id="pane_BrainBall">
+                           <children>
+                              <Circle fill="#d3d3d3" layoutX="298.0" layoutY="167.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+                              <Rectangle fx:id="box0" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="219.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label1" alignment="CENTER" contentDisplay="CENTER" layoutX="219.0" layoutY="12.0" prefHeight="50.0" prefWidth="50.0" text="1" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="273.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label2" alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="12.0" prefHeight="50.0" prefWidth="50.0" text="2">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="327.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label3" alignment="CENTER" contentDisplay="CENTER" layoutX="327.0" layoutY="12.0" prefHeight="50.0" prefWidth="50.0" text="3" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="403.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label4" alignment="CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="88.0" prefHeight="50.0" prefWidth="50.0" text="4">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="403.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label5" alignment="CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="142.0" prefHeight="50.0" prefWidth="50.0" text="5" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="403.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label6" alignment="CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="196.0" prefHeight="50.0" prefWidth="50.0" text="6">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="354.0" layoutY="272.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label7" alignment="CENTER" contentDisplay="CENTER" layoutX="354.0" layoutY="272.0" prefHeight="50.0" prefWidth="50.0" text="7">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="300.0" layoutY="272.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label8" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="272.0" prefHeight="50.0" prefWidth="50.0" text="8">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="246.0" layoutY="272.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label9" alignment="CENTER" contentDisplay="CENTER" layoutX="246.0" layoutY="272.0" prefHeight="50.0" prefWidth="50.0" text="9">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="192.0" layoutY="272.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label10" alignment="CENTER" contentDisplay="CENTER" layoutX="192.0" layoutY="272.0" prefHeight="50.0" prefWidth="50.0" text="10">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="143.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label11" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="196.0" prefHeight="50.0" prefWidth="50.0" text="11" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="143.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label12" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="142.0" prefHeight="50.0" prefWidth="50.0" text="12">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Rectangle fx:id="box12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="143.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                              <Label fx:id="lbl_label13" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="88.0" prefHeight="50.0" prefWidth="50.0" text="13">
+                                 <font>
+                                    <Font name="Arial Black" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Separator>
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="20.0" />
+                           </VBox.margin></Separator>
+                        <VBox>
+                           <children>
+                              <Slider fx:id="sdr_Slider" blockIncrement="1.0" majorTickUnit="1.0" max="12.0" min="-12.0" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </VBox.margin></Slider>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <Button fx:id="btn_Flip" mnemonicParsing="false" onAction="#btn_Flip_OnAction" prefWidth="70.0" text="Flip" textAlignment="CENTER">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                    <Button fx:id="btn_Undo" alignment="CENTER" mnemonicParsing="false" onAction="#btn_Undo_OnAction" prefWidth="70.0" text="Undo" textAlignment="CENTER">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                    <Button fx:id="btn_Redo" alignment="CENTER" mnemonicParsing="false" onAction="#btn_Redo_OnAction" prefWidth="70.0" text="Redo" textAlignment="CENTER">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="BOTTOM_CENTER">
+                                 <children>
+                                    <Button fx:id="btn_Shuffle" mnemonicParsing="false" onAction="#btn_Shuffle_OnAction" prefWidth="70.0" text="Shuffle" textAlignment="CENTER">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                    <Button fx:id="btn_Random" alignment="CENTER" mnemonicParsing="false" onAction="#btn_Random_OnAction" prefWidth="70.0" text="Random">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                    <Button fx:id="btn_Solve" mnemonicParsing="false" onAction="#btn_Solve_OnAction" prefWidth="70.0" text="Solve" textAlignment="CENTER">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                    <Button fx:id="btn_Reset" mnemonicParsing="false" onAction="#btn_Reset_OnAction" prefWidth="70.0" text="Reset">
+                                       <HBox.margin>
+                                          <Insets left="5.0" right="5.0" />
+                                       </HBox.margin></Button>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </VBox.margin>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane>
+               <children>
+                  <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="TOP_CENTER" text="Moves:">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <ListView fx:id="lst_moves" VBox.vgrow="ALWAYS">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </ListView>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
